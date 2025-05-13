@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Godoy Martins Solutions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="bg-blue-800 text-white w-64 min-h-screen p-4">
+            <div class="mb-8 text-center">
+                <img src="../images/logo.png" alt="Godoy Martins Solutions" class="h-14 mx-auto mb-4">
+            </div>
+            <nav>
+                <ul class="space-y-2">
+                    <li><a href="#" class="block py-2 px-4 rounded hover:bg-blue-700"><i class="fas fa-tachometer-alt mr-2"></i> Dashboard</a></li>
+                    <li><a href="fleet.html" class="block py-2 px-4 rounded hover:bg-blue-700"><i class="fas fa-car mr-2"></i> Fleet</a></li>
+                    <li><a href="customers.html" class="block py-2 px-4 rounded hover:bg-blue-700"><i class="fas fa-users mr-2"></i> Customers</a></li>
+                    <li><a href="reservations.html" class="block py-2 px-4 rounded hover:bg-blue-700"><i class="fas fa-calendar-alt mr-2"></i> Reservations</a></li>
+                    <li><a href="finances.html" class="block py-2 px-4 rounded hover:bg-blue-700"><i class="fas fa-chart-line mr-2"></i> Finances</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-8">
+            <h1 class="text-2xl font-bold mb-6">Management Dashboard</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Cards de Resumo -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="font-semibold mb-2">Active Rentals</h3>
+                    <p class="text-3xl">2</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="font-semibold mb-2">Available Cars</h3>
+                    <p class="text-3xl">1</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="font-semibold mb-2">Monthly Revenue</h3>
+                    <p class="text-3xl">$1,250</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
